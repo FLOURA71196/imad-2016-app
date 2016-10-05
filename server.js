@@ -124,13 +124,13 @@ app.get('/:DetailsName', function (req, res) {
   res.send(createTemplate(Details[DetailsName]));
 });
 
-app.get('/achievements', function (req, res) {
-  res.send(createTemplate(PersonalDetails));
-});
+// app.get('/achievements', function (req, res) {
+//   res.send(createTemplate(PersonalDetails));
+// });
 
-app.get('/experiences', function (req, res) {
-  res.send(createTemplate(PersonalDetails));
-});
+// app.get('/experiences', function (req, res) {
+//   res.send(createTemplate(PersonalDetails));
+// });
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
