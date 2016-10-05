@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: bisque;
-    margin-top: 75px;
+    margin : 0px;
 }
 
 .center {
@@ -19,7 +19,7 @@ ul li{
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    width: 19.75%;
+    width: 24.75%;
     padding-top:  40px; 
     padding-bottom:  40px;  
 }
