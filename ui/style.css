@@ -25,6 +25,10 @@ ul li{
     padding-bottom:  40px;  
 }
 
+li a{
+    text-decoration : none;
+}
+
 li:hover{
     background-color: #dff0d8;
     color: black;
