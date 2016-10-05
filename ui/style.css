@@ -17,6 +17,7 @@ ul{
 ul li{
     font-weight: bold;
     text-decoration: none;
+    background-color: yellow;;
     display: inline-block;
     text-align: center;
     width: 23.75%;
@@ -25,7 +26,7 @@ ul li{
 }
 
 li:hover{
-    background-color: #dff0d8;;
+    background-color: #dff0d8;
     color: black;
 }
 
