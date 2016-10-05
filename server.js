@@ -10,6 +10,18 @@ app.get('/', function (req, res) {
 });
 
 app.get('/home', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
+app.get('/personal-details', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'personal.html'));
+});
+
+app.get('/achievements', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+
+app.get('/experiences', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
