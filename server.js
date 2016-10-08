@@ -124,6 +124,10 @@ app.get('/:DetailsName', function (req, res) {
   res.send(createTemplate(Details[DetailsName]));
 });
 
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
 // app.get('/achievements', function (req, res) {
 //   res.send(createTemplate(PersonalDetails));
 // });
