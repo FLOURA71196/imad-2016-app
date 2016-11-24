@@ -1,58 +1,106 @@
-body {
-    font-family: sans-serif;
-    background-color: bisque;
-    margin : 60px;
+.menu{
+  width: 19.75%;
+  padding: 1px;
+  padding-top: 10px;
+  margin: 0px;
+  float: left;
+  display: inline-block;
+  background-color: lightblue;
+  border-right: 1px solid black;
+  text-align: center;
+  height: 30px;
+}
+#navg{
+  width: 100%;
 }
 
-.center {
-    text-align: center;
+body{
+    background-color: azure;
 }
 
-ul{
-    height: 100px;
-    background-color: transparent;
-    color: #4db8ff;
+.menu:hover{
+    background-color: aquamarine;
 }
 
-ul li{
-    font-weight: bold;
-    text-decoration: none;
-    background-color: yellow;;
+.menu1:hover{
+    background-color: aquamarine;
+}
+.menu1{
+  width: 19.75%;
+  padding: 1px;
+  padding-top: 10px;
+  margin: 0px;
+  float: left;
+  display: inline-block;
+  background-color: lightblue;
+  text-align: center;
+  height: 30px;
+}
+
+#section1{
+    width: 100%;
     display: inline-block;
+}
+
+.col1{
+    width: 30%;
+    display: inline-block;
+}
+
+#content{
+    width: 68%;
+    position: absolute;
+    display: inline-block;
+}
+.col{
+    width: 100%;
+    position: relative;
+}
+
+#mypic{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.vischar{
+    display: inline-block;
+    height: 50px;
+    width: 6.5%;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 100px;
+    padding-top: 30px;
+    background-color: black;
+    margin-top: 165px;
     text-align: center;
-    width: 23.75%;
-    padding-top:  40px; 
-    padding-bottom:  40px;  
+    border: 1px solid black;
 }
 
-li a{
-    text-decoration : none;
-    color: #4db8ff;
+.spacing{ 
+    clear: both;
+    background-color: black;
+    height: 2px;
 }
 
-li:hover{
-    background-color: #dff0d8;
-    color: black;
+.col12{
+    width: 100%;
+    position: relative;
 }
 
-.text-big {
-    font-size: 300%;
+.vischar2{
+    display: inline-block;
+    height: 30px;
+    width: 4%;
+    font-size: 16px;
+    font-style: italic;
+    font-family: monospace;
+    font-weight: 60px;
+    padding-top: 15px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: center;
+    border: 1px solid black;
 }
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
-.pers{
-        max-width : 800px;
-        margin: 0 auto;
-        background-color:lightgreen;
-        color:red;
-        font-family:sans-serif;
-        padding-left:20px;
-        padding-right:20px;
-    }
