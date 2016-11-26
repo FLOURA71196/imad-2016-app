@@ -8,14 +8,14 @@ app.use(morgan('combined'));
 var Details ={
     
 'myresume':{
-    title:'Resume',
-    heading:'Resume',
+    title:'MyResume',
+    heading:'MyResume',
     content:`<div id="navg">
-    <div class="menu"><a class="linking" href="myprofile.html">Home</a></div>
+    <div class="menu"><a class="linking" href="/home">Home</a></div>
     <div class="menu">Intro</div>
-    <div class="menu"><a class="linking" href="myresume.html">MyResume</a></div>
-    <div class="menu"><a class="linking" href="myfamily.html">Family</a></div>
-    <div class="menu1"><a class="linking" href="myblog.html">Blog</a></div>
+    <div class="menu"><a class="linking" href="/myresume">MyResume</a></div>
+    <div class="menu"><a class="linking" href="/myfamily">Family</a></div>
+    <div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
 </div>
 <div class="spacing"></div>
     <div id="resume">
@@ -132,11 +132,11 @@ var Details ={
     title:'MyFamily',
     heading:'MyFamily',
     content:`<div id="navg">
-	<div class="menu"><a class="linking" href="myprofile.html">Home</a></div>
+	<div class="menu"><a class="linking" href="/home">Home</a></div>
 	<div class="menu">Intro</div>
-	<div class="menu"><a class="linking" href="myresume.html">MyResume</a></div>
-	<div class="menu"><a class="linking" href="myfamily.html">Family</a></div>
-	<div class="menu1"><a class="linking" href="myblog.html">Blog</a></div>
+	<div class="menu"><a class="linking" href="/myresume">MyResume</a></div>
+	<div class="menu"><a class="linking" href="/myfamily">Family</a></div>
+	<div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
 </div>
 <div class="spacingw"></div><br>
      <div style="height: 600px" id="family">
