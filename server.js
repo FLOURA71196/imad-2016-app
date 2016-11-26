@@ -16,45 +16,6 @@ var pool = new Pool(config);
 var app = express();
 app.use(morgan('combined'));
 
-var Details ={
-'intro' : {
-    title:'Intro',
-    heading:'Intro',
-    content:`<div id="navg">
-    <div class="menu"><a class="linking" href="/home">Home</a></div>
-	<div class="menu"><a class="linking" href="/intro">Intro</a></div>
-	<div class="menu"><a class="linking" href="/myresume">MyResume</a></div>
-	<div class="menu"><a class="linking" href="/myfamily">Family</a></div>
-	<div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
-</div>
-<div class="spacing"></div>
-<br>
-<!-- after update -->
-<div class="marq"><marquee> *** The website is still under construction, trying to enhance it each day *** </marquee></div>
-<div id= "intro1">
-	<h1>HeLlO eVeRyBoDy! :) </h1>
-	<div id="introcont">
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Myself <b>Floura Angel</b>. Well in this page I wanted to write about myself. Although this blog is to demonstrate my skills in the field of Modern Application Development but I wanted to share my interests, beliefs, give thanks and many more....
-	<br><br>
-	<h3>Astronomy and Cosmology</h3>
-	Why Astronomy???
-	<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Astronomy, a natural science, is the study of celestial objects (such as stars, galaxies, planets, moons, asteroids, comets and nebulae) and processes (such as supernovae explosions, gamma ray bursts, and cosmic microwave background radiation), the physics, chemistry, and evolution of such objects and processes, and more generally all phenomena that originate outside the atmosphere of Earth.<br> 
-	<br>Not very soon I good this interest on exploring celestial bodies. On reading about it, I started to believe in the very well known saying,
-	<br>
-	<br>
-	<i><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“And, when you want something, all the universe conspires in helping you to achieve it.” ― Paulo Coelho</b></i>
-	<br><br>
-	I believe everyone is unique creation of the Master.All that one has to do is push a little everyday and you won't realize how far you have travelled. As it goes, give your best in whatever you can the remaining the universe will do it for you, but yet what's important is that your will power is firm,your determined and know where exactly you want to go.
-	</div><br><br>
-	<b>Thanks</b><br><br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Not to forget the one who created me ,to the <b>LORD</b>, my parents and everyperson that helped me to grow to the person I am today. A big Thank-You.
-		<br><br><i><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I might not be the optimal one, but my ability to pursue,learn,adapt will push me harder to be the one.</b></i>
-</div>`
-},
-
-} ;
-
 function createTemplate(data){
    var title = data.title;
     var heading = data.heading;
