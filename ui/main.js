@@ -1,40 +1,3 @@
-// var button = document.getElementById("counter");
-
-// button.onclick = function(){
- 
-//  var request = new XMLHttpRequest();
-//  request.onreadystatechange = function(){
-//      if(request.readyState === XMLHttpRequest.DONE){
-//          if(request.state === 200){
-//             var counter = request.responseText;  
-//              var span = document.getElementById("counter");
-//              span.innerHTML = counter.toString();
-//          }
-//      }
-//  };
- 
-//  request.open('GEET','http://floura71196.imad.hasura-app.io//counter',true);
-//  request.send(null);
- 
-// };
-
-
-// //submit
-
-// var nameInput = document.getElementById("name");
-// var name1 = nameInput.value;
-// var sub = document.getElementById("sub_but");
-// sub.onclick = function(){
-//     //capture name and render as list
-//     var names = ['name1','name2'];
-//     var list = '';
-//     for(var i=0;i<names.length;i++){
-//         list += '<li>'+names[i]  +  '</li>';
-//     }
-//     var ol = document.getElementById('nameList');
-//     ol.innerHTML = list
-// };
-
 function myhover1(){
         document.getElementsByClassName("vischar")[0].style = "border: 5px solid black ; background-color:white";
     }
@@ -107,6 +70,7 @@ function myhovera11(){
 function myhovera12(){
         document.getElementsByClassName("vischar2")[11].style = "border: 2px solid black ; background-color:white";
     }
+
 function myhovera13(){
         document.getElementsByClassName("vischar2")[12].style = "border: 2px solid black ; background-color:white";
     }
