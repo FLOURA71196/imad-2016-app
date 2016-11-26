@@ -1,13 +1,14 @@
-<!doctype html>
-<html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-        <script src="/ui/main.js"></script>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="myprofile.js"></script>
+<link rel="stylesheet" type="text/css" href="myprofile.css">
+<title>Floura Angel</title>
+</head>
+<body>
 <div id="navg">
-	<div class="menu"><a class="linking" href="/home"></a>Home</div>
-	<div class="menu">Intro</div>
+	<div class="menu"><a class="linking" href="/home">Home</a></div>
+	<div class="menu"><a class="linking" href="/intro">Intro</a></div>
 	<div class="menu"><a class="linking" href="/myresume">MyResume</a></div>
 	<div class="menu"><a class="linking" href="/myfamily">Family</a></div>
 	<div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
@@ -16,9 +17,10 @@
 <div class="marq"><marquee> *** The website is still under construction, trying to enhance it each day *** </marquee></div>
 <div id="section1">
     <div class="col1">
-        <img id="mypic" src="/ui/floura.png">
+        <img id="mypic" src="floura.jpg">
     </div>
     <div id="content">
+    <div id="curinf"><b style="color: orange ">Move your cursor over the black boxes</b></div>
     <div class="col">
         <div class="vischar" onmouseover="myhover1()">F</div>
         <div class="vischar" onmouseover="myhover2()">L</div>
@@ -54,24 +56,31 @@
     <br>
     <br><br><br>
     <div class="spacing"></div>
-    <div id="intro">
+    <div id="intro" class="boxfeature1">
     <h1>INTRODUCTION</h1><br>
         <p>Driven by the idea to revolutionise the world with innovative technology,I am a confident and passionate individual with a strong technical background looking forward to learn new things and explore myself.</p>
-    </div><br>
-    <br><br><br>
+        <a href="/intro" id="readmore">read more..</a>
+    <br>
+    <br><br><br></div>
     <div class="spacing"></div>
-    <div id="resume">
+    <div id="resume" class="boxfeature1">
     <h1>MY RESUME</h1><br><br>
         Technical Expertise, Academics, Certifications, Workshop Attended, Projects, Experience, Achievements, Strengths, Hobbies.
         <a href="/myresume" id="readmore">read more..</a>
-    </div>
-    <br><br><br>
+    <br><br><br></div>
+    
     <div class="spacing"></div>
-    <div id="blog">
+    <div id="blog" class="boxfeature1">
         <h1>MY BLOG</h1>
-        <div id="bcol">1</div>
-        <div id="bcol">2</div>
-        <div id="bcol">3</div>
-    </div>
-    </body>
+        Few practical experiments as blogs. Please do comment below regarding the changes,interests, etc.
+        <a href="/myblog" id="readmore">read more..</a>
+    
+    <br><br><br></div>
+    <div class="spacing"></div>
+    <div id="footer" class="boxfeature1"><br><br>
+        Contact<br>Name: Floura Angel<br>Email:<a href="linking">floura.angel.96@gmail.com</a>
+    <br><br></div>
+    <div class="spacing"></div>
+</body>
 </html>
+
