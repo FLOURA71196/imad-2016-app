@@ -18,7 +18,7 @@ app.use(morgan('combined'));
 
 var Details ={
     
-'myresume':{
+'Myresume':{
     title:'MyResume',
     heading:'MyResume',
     content:``
