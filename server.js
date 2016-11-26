@@ -317,7 +317,7 @@ app.get('/home', function (req, res) {
 });
 
 app.get('/Details/:DetailsName', function (req, res) {
-  pool.query("SELECT * FROM blog WHERE title= " +req.params.DetailsName , function(err,result){
+  pool.query("SELECT * FROM blog WHERE title= '" +req.params.DetailsName+"'" , function(err,result){
       if(err){
           res.status(500).send(err.toString());
       } else{
