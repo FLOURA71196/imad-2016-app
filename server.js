@@ -7,68 +7,96 @@ app.use(morgan('combined'));
 
 var Details ={
     
-'personal-details':{
+'myresume':{
     title:'Personal Details',
     heading:'Personal Details',
     content:`<div id="navg">
-	<div class="menu">Home</div>
-	<div class="menu">Intro</div>
-	<div class="menu">MyResume</div>
-	<div class="menu">Family</div>
-	<div class="menu1">Blog</div>
+    <div class="menu"><a class="linking" href="myprofile.html">Home</a></div>
+    <div class="menu">Intro</div>
+    <div class="menu"><a class="linking" href="myresume.html">MyResume</a></div>
+    <div class="menu"><a class="linking" href="myfamily.html">Family</a></div>
+    <div class="menu1"><a class="linking" href="myblog.html">Blog</a></div>
 </div>
 <div class="spacing"></div>
-<div id="section1">
-    <div class="col1">
-        <img id="mypic" src="me2.jpg">
-    </div>
-    <div id="content">
-    <div class="col">
-        <div class="vischar" onmouseover="myhover1()">F</div>
-        <div class="vischar" onmouseover="myhover2()">L</div>
-        <div class="vischar" onmouseover="myhover3()">O</div>
-        <div class="vischar" onmouseover="myhover4()">U</div>
-        <div class="vischar" onmouseover="myhover5()">R</div>
-        <div class="vischar" onmouseover="myhover6()">A</div>
-        <div class="vischar" onmouseover="myhover7()">:)</div>
-        <div class="vischar" onmouseover="myhover8()">A</div>
-        <div class="vischar" onmouseover="myhover9()">N</div>
-        <div class="vischar" onmouseover="myhover10()">G</div>
-        <div class="vischar" onmouseover="myhover11()">E</div>
-        <div class="vischar" onmouseover="myhover12()">L</div>
-    </div>
-        <br>
-    <div class="col12">
-        <div class="vischar2" onmouseover="myhovera1()">W</div>
-        <div class="vischar2" onmouseover="myhovera2()">E</div>
-        <div class="vischar2" onmouseover="myhovera3()">B</div>
-        <div class="vischar2" onmouseover="myhovera4()">&nbsp;</div>
-        <div class="vischar2" onmouseover="myhovera5()">D</div>
-        <div class="vischar2" onmouseover="myhovera6()">E</div>
-        <div class="vischar2" onmouseover="myhovera7()">V</div>
-        <div class="vischar2" onmouseover="myhovera8()">E</div>
-        <div class="vischar2" onmouseover="myhovera9()">L</div>
-        <div class="vischar2" onmouseover="myhovera10()">O</div>
-        <div class="vischar2" onmouseover="myhovera11()">P</div>
-        <div class="vischar2" onmouseover="myhovera12()">E</div>
-        <div class="vischar2" onmouseover="myhovera13()">R</div>
-    </div>
-    </div>
-</div>
-    <br>
-    <br><br><br>
-    <div class="spacing"></div>
-    <div id="intro">
-    <h1>INTRODUCTION</h1><br>
-        <p>Driven by the idea to revolutionise the world with innovative technology,I am a confident and passionate individual with a strong technical background looking forward to learn new things and explore myself.</p>
-    </div><br>
-    <br><br><br>
-    <div class="spacing"></div>
     <div id="resume">
     <h1>MY RESUME</h1>
-        <h4>Technical Expertise, Academics, Certifications, Workshop Attended, Projects, Experience, Achievements, Strengths, Hobbies.
-        </h4>
-        <h5 id="readmore">read more..</h5>
+        <div id="technical">
+        <h4>Technical Expertise</h4>
+        <h4>Programming Skills:</h4> 
+            <ul list-style-type:square>
+               <li>C </li> 
+                <li>C++</li> 
+                <li>Java</li>
+                <li>Php</li>
+                <li>Android Application</li>
+            </ul>
+        <h4>Area of interest:</h4>
+            <ul list-style-type:square>
+                <li>Programming</li>
+                <li>Data Structure</li>
+                <li>Algorithms</li>
+                <li>Operating Systems</li>
+                <li>Application Development</li>
+                <li>Linux</li>
+                <li>SQL</li>        
+            </ul>
+        </div>
+        <div id="certifications">
+        <h4>Certifications</h4>
+        <ul list-style-type:square>
+            <li>Completed Cambridge ESOL Level 1 Certificate in ESOL International (Business English) and cleared Council of Europe level B2 on November 2014.</li>
+            <li>Completed the course on Core Java conducted by M-CAT Computer Education in June, 2015 at Mumbai.</li>
+            <li>Completed Oracle Java Programming(OCPJP) on 12th May,2016 with 98%.</li>
+            <li>Completed Introduction to Application Development - IMAD</li>
+            <li>Pursuing IBM Cloud Application Developer</li>
+            <li>Pursuing Oracle SQL Certification</li>
+        </ul>
+    </div>
+        <div id="workshop">
+        <h4>Workshop Attended</h4>
+            <ul list-style-type:square>
+                <li>Participated in Workshop on “Web Development” at IIT Bombay Techfest 2015.</li>
+                <li>Attended seminar and a workshop on Time Complexity in day-to-day life(Real-life examples)</li>
+                <li>Attended Two day workshop on Android App Development at Karunya University,Coimbatore.</li>
+                <li>Attended One day workshop on Android App Security Development at Coimbatore Institute of   Technology.</li>
+                <li>Participated for 24 hours coding contest (Hackathon) conducted by IBM and developed a task manager app.</li>
+                <li>Presented a poster on Smart City Ideas using IOT(Internet of things).</li>
+            </ul>
+        </div>
+        <div id="projects">
+        <h4>Projects</h4>
+            <ul list-style-type:square>
+                <li>Android Application for Navigation (apk file- https://drive.google.com/open?id=0B0A9SApYtl2oZlp1d1Z0ZHNaUDQ)</li>
+                <li>Wordpress Website : progenerp.com</li>
+            </ul>
+        </div>
+        <div id="achievements">
+        <h4>Achievements</h4>
+            <ul list-style-type:square>
+                <li>Secured third academic rank among 350+ 2nd year students for Odd Semester 2015-2016</li>
+                <li>Secured 2nd place in technical quiz for CSI in Coimbatore</li>
+            </ul>
+        </div>
+        <div id="strengths">
+        <h4>Strengths</h4>
+             <ul list-style-type:square>
+                 <li>Public Speaker</li>
+                 <li>Team Player</li>
+                 <li>Self-motivated</li>
+                 <li>Quick learner</li>
+                 <li>Hard Worker</li>
+            </ul>
+        </div>
+        <div id="extra">
+            <h4>Extra-Ciricular Activities</h4>
+        </div>
+        <div id="hobbies">
+            <h4>Hobbies</h4>
+            <ul list-style-type:square>
+                 <li>Coding</li>
+                <li>Astronomy</li>
+            </ul>
+        </div>
     </div>`
 },
 'achievements' : {
@@ -100,30 +128,35 @@ var Details ={
             <br>
             </div>`
 },
-'experiences' : {
+'myfamily' : {
     title:'Experience Details',
     heading:'Experience Details',
-    content:`<div>
-            <br>
-            <br>
-            <h4>Summer Internship:</h4>
-               Designed the Progen ERP website using WordPress
-               <a href="http://progenerp.com/">Progen ERP</a>
-            <br>
+    content:`<div id="navg">
+	<div class="menu"><a class="linking" href="myprofile.html">Home</a></div>
+	<div class="menu">Intro</div>
+	<div class="menu"><a class="linking" href="myresume.html">MyResume</a></div>
+	<div class="menu"><a class="linking" href="myfamily.html">Family</a></div>
+	<div class="menu1"><a class="linking" href="myblog.html">Blog</a></div>
+</div>
+<div class="spacingw"></div><br>
+     <div style="height: 600px" id="family">
+            <div style="background-color: black;color: white;font-weight: 700;height: 50px;padding-top: 30px;padding-left: 10px;">MY FAMILY MEMBERS</div>
+            <div style="position:relative;">
+            <div class="dblock">
+            <img src="daddy.jpg" style="left:50px;" class="dfcol">
+            <div style="width: 250px;position: absolute;top:220px;left: 60px;color: black"><h1>Mr.DURAIRAJ</h1><h4>DADDY</h4><br>A Product Executive by Profession.He is the one who brings up all the positive energy within me. Believing in me, who constantly makes me realize how precious and unique person I am.I wonder what would I be without his support.</div>
             </div>
-            <div>
-            <br>
-            <h4>Current Projects:</h4>
-                Automation of Conventational Target Paln,<br>
-                Karunya University,<br>
-            <br>
-                Land Marking using Android,<br>
-                Karunya University,<br>
-            <br>
-                Smart Traffic Control using IP networks,<br>
-                Karunya University,<br>
-            <br>
-            </div>`
+            <div class="spac"></div>
+            <div class="mblock">
+            <img src="mummy.jpg" style="left:40%;" class="dfcol">
+            <div style="width: 250px;position: absolute;top:220px;left: 40%;color: black"><h1>Mrs.MARY</h1><h4>MUMMY</h4><br>The most prettiest woman on the planet. I hope I receive some of her selfless,caring and honest nature.A woman of God,a responsible daughter, a loveable sister, a faithful wife, an amazing mom, a smart tutor. She surely is gem!</div>
+            </div>
+            <div class="sblock">
+             <img src="siblings.jpg" style="left:80%;" class="dfcol">
+            <div style="width: 250px;position: absolute;top:220px;left: 80%;color: black"><h3>Miss.GRACEE<br>Mr.MARTIN</h3><h4>SIBLINGS</h4><br> And my world is incomplete without them. Oh how much I love them! Fights,hugs,kisses... </div>
+            </div>
+            </div>
+        </div>`
 }
 
 } ;
