@@ -58,6 +58,10 @@ body{
     position: relative;
 }
 
+.marq{
+  color: red;
+}
+
 #mypic{
     height: 300px;
     margin-left: 80px;
