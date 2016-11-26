@@ -8,8 +8,8 @@ app.use(morgan('combined'));
 var Details ={
     
 'myresume':{
-    title:'Personal Details',
-    heading:'Personal Details',
+    title:'Resume',
+    heading:'Resume',
     content:`<div id="navg">
     <div class="menu"><a class="linking" href="myprofile.html">Home</a></div>
     <div class="menu">Intro</div>
@@ -129,8 +129,8 @@ var Details ={
             </div>`
 },
 'myfamily' : {
-    title:'Experience Details',
-    heading:'Experience Details',
+    title:'MyFamily',
+    heading:'MyFamily',
     content:`<div id="navg">
 	<div class="menu"><a class="linking" href="myprofile.html">Home</a></div>
 	<div class="menu">Intro</div>
@@ -176,12 +176,7 @@ function createTemplate(data){
         <link href="/ui/style.css" rel="stylesheet" />
         </head>
         <body>
-            <div class="pers">
-                <div>
-                    <h3>${heading}</h3>
-                </div>
                 ${content}
-            </div>
         </body>
         </html>
         `;
