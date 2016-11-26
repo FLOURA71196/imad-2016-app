@@ -18,6 +18,7 @@ var Details ={
     <div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
 </div>
 <div class="spacing"></div>
+<div class="marq"><marquee> *** The website is still under construction, trying to enhance it each day *** </marquee></div>
     <div id="resume">
     <h1>MY RESUME</h1>
         <div id="technical">
@@ -109,7 +110,8 @@ var Details ={
 	<div class="menu"><a class="linking" href="/myfamily">Family</a></div>
 	<div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
 </div>
-<div class="spacing"></div>
+<div class="spacing"></div><br>
+<div class="marq"><marquee> *** These are my college lab experiments. *** The website is still under construction, trying to enhance it each day *** *** </marquee></div>
 <br>
 <br>
 <div class="blog"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/iSZBv_hAFTM" frameborder="0"></iframe></div>
@@ -138,6 +140,7 @@ var Details ={
 	<div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
 </div>
 <div class="spacingw"></div><br>
+<div class="marq"><marquee> *** The website is still under construction, trying to enhance it each day *** </marquee></div><br>
      <div style="height: 600px" id="family">
             <div style="background-color: black;color: white;font-weight: 700;height: 50px;padding-top: 30px;padding-left: 10px;">MY FAMILY MEMBERS</div>
             <div style="position:relative;">
