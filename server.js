@@ -316,9 +316,19 @@ app.get('/home', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:DetailsName', function (req, res) {
-  var DetailsName = req.params.DetailsName;
-  res.send(createTemplate(Details[DetailsName]));
+app.get('/Details/:DetailsName', function (req, res) {
+  pool.query("SELECT * FROM blog WHERE title= " +req.params.DetailsName , function(err,result){
+      if(err){
+          res.status(500).send(err.toString());
+      } else{
+          if(result.rows.length === 0){
+              res.status(404).send('Page not found');
+          }else{
+              var ArticleData = result.rows[0];
+              res.send(createTemplate(ArticleData));
+          }
+      }
+  });
 });
 
 app.get('/ui/main.js', function (req, res) {
