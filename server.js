@@ -236,16 +236,16 @@ var Details ={
             <div style="background-color: black;color: white;font-weight: 700;height: 50px;padding-top: 30px;padding-left: 10px;">MY FAMILY MEMBERS</div>
             <div style="position:relative;">
             <div class="dblock">
-            <img src="daddy.jpg" style="left:50px;" class="dfcol">
+            <img src="/ui/daddy.png" style="left:50px;" class="dfcol">
             <div style="width: 250px;position: absolute;top:220px;left: 60px;color: black"><h1>Mr.DURAIRAJ</h1><h4>DADDY</h4><br>A Product Executive by Profession.He is the one who brings up all the positive energy within me. Believing in me, who constantly makes me realize how precious and unique person I am.I wonder what would I be without his support.</div>
             </div>
             <div class="spac"></div>
             <div class="mblock">
-            <img src="mummy.jpg" style="left:40%;" class="dfcol">
+            <img src="/ui/mummy.png" style="left:40%;" class="dfcol">
             <div style="width: 250px;position: absolute;top:220px;left: 40%;color: black"><h1>Mrs.MARY</h1><h4>MUMMY</h4><br>The most prettiest woman on the planet. I hope I receive some of her selfless,caring and honest nature.A woman of God,a responsible daughter, a loveable sister, a faithful wife, an amazing mom, a smart tutor. She surely is gem!</div>
             </div>
             <div class="sblock">
-             <img src="siblings.jpg" style="left:80%;" class="dfcol">
+             <img src="/ui/siblings.png" style="left:80%;" class="dfcol">
             <div style="width: 250px;position: absolute;top:220px;left: 80%;color: black"><h3>Miss.GRACEE<br>Mr.MARTIN</h3><h4>SIBLINGS</h4><br> And my world is incomplete without them. Oh how much I love them! Fights,hugs,kisses... </div>
             </div>
             </div>
