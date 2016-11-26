@@ -99,34 +99,33 @@ var Details ={
         </div>
     </div>`
 },
-'achievements' : {
-    title:'Achievements Details',
-    heading:'Achievements Details',
-    content:`<div>
-            <br>
-            <br>
-            <h4>College:</h4>
-               Award of Academic Proficiency,<br>
-               Karunya University,<br>
-               December 2015
-            <br>
-            </div>
-            <div>
-            <br>
-            <h4>Certifications:</h4>
-                Oracle Certified Java SE 6 Programmer,<br>
-                Oracle,<br>
-                May 2016,<br>
-            <br>
-                Business English Certificate Vantage,<br>
-                Cambridge English,<br>
-                November 2014,<br>
-            <br>
-                Core Java,<br>
-                M-CAT Computer Education,<br>
-                June 2015,<br>
-            <br>
-            </div>`
+'myblog' : {
+    title:'MyBlog',
+    heading:'MyBlog',
+    content:`    <div id="navg">
+	<div class="menu"><a class="linking" href="/home">Home</a></div>
+	<div class="menu">Intro</div>
+	<div class="menu"><a class="linking" href="/myresume">MyResume</a></div>
+	<div class="menu"><a class="linking" href="/myfamily">Family</a></div>
+	<div class="menu1"><a class="linking" href="/myblog">Blog</a></div>
+</div>
+<div class="spacing"></div>
+<br>
+<br>
+<div class="blog"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/iSZBv_hAFTM" frameborder="0"></iframe></div>
+<div class="spblog"></div>
+<div class="blog"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Cgb5ipBQ51g" frameborder="0"></iframe></div>
+<div class="spblog"></div>
+<div class="blog"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/EAPVQg1VJG8" frameborder="0"></iframe></div>
+<div style="clear:both;"></div>
+<br><br>
+<div id="comment"></div>
+<form>
+	<fieldset>
+		<legend>Comments</legend>
+		<div id="commentsec"></div>
+	</fieldset>
+</form>`
 },
 'myfamily' : {
     title:'MyFamily',
